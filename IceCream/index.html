@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./main.js"></script>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
@@ -13,8 +14,9 @@
         Scoops:
         <input type="number" value="1" id="scoops">
     </label>
+    <br>
     <label>
-        <input type="radio" name="container" id="cup"> Cup
+        <input type="radio" name="container" id="cup" checked> Cup
 
     </label>
     <label>
@@ -24,16 +26,16 @@
     <fieldset id="toppings">
         <legend>Toppings</legend>
         <label>
-            <input type="checkbox" id="sprinkles"> Sprinkles
+            <input type="checkbox" id="sprinkles"> Sprinkles ($0.50)
         </label>
         <label>
-            <input type="checkbox" id="whipped"> Whipped
+            <input type="checkbox" id="whipped"> Whipped ($0.25)
         </label>
         <label>
-            <input type="checkbox" id="fudge"> Hot Fudge
+            <input type="checkbox" id="fudge"> Hot Fudge ($1.25)
         </label>
         <label>
-            <input type="checkbox" id="cherry"> Cherry
+            <input type="checkbox" id="cherry"> Cherry ($0.25)
         </label>
     </fieldset>
     <button id="submitOrder">Submit Order</button>

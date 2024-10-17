@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(165, 81, 11);
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+label{
+    min-width: 40vw;
+    display: inline-block;
+    white-space: nowrap;
+}
